@@ -1,5 +1,5 @@
 body {
-    background-image: url(/assets/img/Moonbackground.jpg);
+    background-image: url(./assets/img/Moonbackground.jpg);
     background-attachment: fixed;
     background-size: 100%;
     font-family: roboto;
@@ -116,7 +116,7 @@ body {
 }
 
 .resume-btn {
-    background-image: url(/assets/img/Moonbackground.jpg);
+    background-image: url(./assets/img/Moonbackground.jpg);
     color: white;
     border-radius: 8px;
     padding-bottom: 5px;
