@@ -1,0 +1,195 @@
+body {
+    background-image: url(/assets/img/Moonbackground.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: roboto;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25rem;
+    /* margin-top: 10rem; */
+}
+
+
+/* navbar */
+.navigation {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 18rem;
+    height: 100rem;
+    opacity: 90%;
+    padding-left: 50px;
+    padding-top: 20px;
+    margin: auto;
+    background-color: black;
+}
+
+.navbar img {
+    width: 90%;
+    border-radius: 18px;
+    box-shadow: 1px 0 0 4px white;
+}
+
+/* Introduction */
+.introduction {
+    font-family: roboto;
+    font-size: 3em;
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    margin: 0;
+    padding-top: 15rem;
+    padding-bottom: 18rem;
+    line-height: 0;
+}
+#role {
+    opacity: 40%;
+    font-family: roboto;
+    font-size: 1.75rem;
+}
+
+/* SKILLS BOX */
+.container-skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+}
+
+.skill-box {
+    padding: 1rem;
+    color: #ddd;
+    cursor: pointer;
+}
+.skill-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.img{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;;
+    width: 50%;
+    height: 90px;
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 45px 0 0 45px;
+}
+.skill-title h3{
+    color: #fff;
+    margin: 0.5rem;
+}
+.skill-icon {
+    width: 50px;
+    z-index: 2;
+}
+
+#my-skills {
+    text-align: center;
+    font-family: roboto;
+    color: white;
+    text-decoration: underline;
+}
+
+.resume-btn {
+    background-image: url(/assets/img/Moonbackground.jpg);
+    color: white;
+    border-radius: 8px;
+    padding-bottom: 5px;
+    cursor:pointer;
+}
+.resume-btn:hover {
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+}
+/* aboutme */
+.about-me {
+    width: 50%;
+    border-radius: 18px;
+    box-shadow: 1px 0 0 4px black;
+    margin-left: 25%;
+    font-size: 1.5rem;
+    text-align: center;
+    background-image: url(/assets/img/Moonbackground.jpg);
+    margin-bottom: 10rem;
+}
+
+/* FOOTER */
+.Contact-Me-footer  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Contact-Me-footer p {
+    font-size: 20px;
+}
+.networklink{
+    color: white;
+    font-size: 1rem;
+}
+.networklink:hover {
+    cursor: pointer;
+    color: teal;
+}
+.networklink::after{
+    color: red;
+}
+
+/* projects */
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    
+}
+
+.projects img {
+    height: 10em;
+    border-radius: 14px;
+    box-shadow: 1px 0 0 2px black;
+}
+
+.projects p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.todolist {
+    transition: transform .2s;
+}
+.todolist:hover {
+    transform: scale(2.0);
+}
+#myprojects {
+    text-align: center;
+    font-family: roboto;
+    color: white;
+    text-decoration: underline;
+}
