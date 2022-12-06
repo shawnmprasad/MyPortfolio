@@ -4,6 +4,8 @@ body {
     background-size: 100%;
     font-family: roboto;
     color: white;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
@@ -24,12 +26,11 @@ body {
     opacity: 90%;
     padding-left: 50px;
     padding-top: 20px;
-    margin: auto;
     background-color: black;
 }
 
 .navbar img {
-    width: 90%;
+    width: 80%;
     border-radius: 18px;
     box-shadow: 1px 0 0 4px white;
 }
